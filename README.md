@@ -1,7 +1,7 @@
 # Trasaterra GPT Local Flask Dev Environment Setup :
 ### Steps:
 <ol>
-<li> Create a directory for your project</li>
+<li> Create a directory for your project<code>cd</code> into the directory</li>
 <li>Start a virtual environment: <code>python venv venv</code></li>
 <li>Activate virtual environment: <code>source venv/bin/activate</code>(Mac)</li>
 <li>Choose the interpreter in for the venv. in VS Code it is often the 
