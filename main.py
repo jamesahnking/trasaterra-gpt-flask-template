@@ -9,7 +9,6 @@ import functions
 
 required_version = version.parse("1.1.1")
 current_version = version.parse(openai.__version__)
-
 OPENAI_API_KEY = os.environ['OPENAI_API_KEY']
 if current_version < required_version:
   raise ValueError(
@@ -103,7 +102,6 @@ def chat():
 # Local Port usage
 if __name__ == "__main__":
     app.run(host="127.0.0.1")
-
 
 # Public Port usage 
 # if __name__ == "__main__":
